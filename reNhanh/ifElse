@@ -1,0 +1,11 @@
+var date = 3 ;
+
+if (date = 3){
+    console.log('ban dung roi');
+} else if(date = 4){
+    console.log('gan dung roi');
+} else if (date = 3){
+    console.log('ban sai roi');
+} else{
+    console.log('ban da di qua sai roi');
+}

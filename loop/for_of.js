@@ -13,9 +13,9 @@ var User = {
 
 for (const value of Object.values(User)) {
     console.log(value);
-    console.log(UserArr[value]);
+   // console.log(User[value]);
 }
 
-for (var value of Object.keys(User)) {
-    console.log(User[value]);
-}
+// for (var value of Object.keys(User)) {
+//     console.log(User[value]);
+// }

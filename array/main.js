@@ -43,6 +43,7 @@ var language = ["JS", "HTML", "css"];
 var language2 = ["JS", "HTML", "css"];
 //console.log(language.toString());// chuyển đổi mảng sang chuỗi
 //console.log(language.join(' - '));// chuyển đổi mảng sang chuỗi
+//console.log(language.split()) // chuyển đổi chuổi thành mảng;
 //console.log(language.pop());// xóa phần tử cuối mảng và trả về phần tử đã xóa
 //console.log(language.shift());// xóa phần tử đầu mảng và trả về phần tử đã xóa
 // console.log(language.push('Dart', 'python'));// thêm một hoặc nhiều phần tử vào cuối mảng và trả về độ dài mới của mảng
@@ -58,4 +59,55 @@ function getLastElement(array) {
   //return array[1]
 }
 
-console.log(getLastElement(language));
+//console.log(getLastElement(language));
+
+
+var arr = [7 ,69 ,2 ,221, 221,221]
+//console.log(arr.sort((a,b) => a-b));
+var arr1 =arr
+let arr2 = [];
+Array.prototype.push.apply(arr2, arr1);
+
+function endArr(arr){
+  arr.pop();
+  
+  var endArr = arr;
+  //console.log(endArr);
+   return endArr.reduce(function(total, arr ){
+      return total += arr
+  },0)
+}
+
+//console.log(endArr(arr1));
+
+function firseArr(arr){
+  arr.shift();
+  var firseArr = arr;
+  //console.log(firseArr);
+   return firseArr.reduce(function(total, arr ){
+      return total += arr
+  },0)
+}
+//console.log(firseArr(arr2));
+
+
+function lengthMaxSum(arr){
+  var dem = 0;
+  var newMax = Math.max(...arr)
+  for (let i = 0; i < arr.length; i++) {
+    if (newMax == arr[i]) {
+      dem++
+    }
+  }
+  console.log(dem);
+}
+
+lengthMaxSum(arr);
+
+
+
+  
+
+
+
+//console.log(miniMaxSum(arr1));

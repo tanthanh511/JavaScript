@@ -14,3 +14,7 @@ var user = new User('Vỹ', 'Nguyễn', 'avatar',19);
 console.log(author);
 console.log(user);
 
+User()
+
+
+

@@ -1,0 +1,18 @@
+{
+    "course": [
+      { 
+          "id": "1",
+          "name": "the life",
+          "img":"./img/3.jpg",
+          "description": "Write for Life delivers a wonderful balance of firm and inspiring advice, shaped into a 6-week program for writers of all levels. From setting daily writing ..." 
+      },
+      { 
+          "id": "2",
+          "name": "why should we eat healthy food", 
+          "img":"./img/3.jpg",
+          "description": "A healthy diet is essential for good health and nutrition. It protects you against many chronic noncommunicable diseases, such as heart disease, diabetes and cancer. Eating a variety of foods and consuming less salt, sugars and saturated and industrially-produced trans-fats, are essential for healthy diet." 
+      }
+    ]
+    
+  }
+  
